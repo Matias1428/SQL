@@ -14,4 +14,3 @@ SELECT title,cast,rating FROM netflix_titles WHERE duration = 1;
 SELECT title,duration,description,country FROM netflix_titles WHERE listed_in = 'comedies';
 SELECT title,duration,description,release_year FROM netflix_titles WHERE type='Movie' ORDER BY release_year DESC LIMIT 30;
 
-$hola
